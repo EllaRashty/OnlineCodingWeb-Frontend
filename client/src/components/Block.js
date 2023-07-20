@@ -8,7 +8,7 @@ import { checkSolution } from "../utils";
 import smiley from "../images/smiley.png";
 import GeneralPage from "./GeneralPage";
 
-const socket = io.connect("http://onlinecodingweb-backend-production.up.railway.app");
+const socket = io.connect("https://onlinecodingweb-backend-production.up.railway.app");
 
 function Block() {
   const [codeString, setCodeString] = useState("");
