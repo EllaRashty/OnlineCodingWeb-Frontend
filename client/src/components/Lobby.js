@@ -29,7 +29,7 @@ function Lobby() {
     return () => {
       unsub();
     };
-  }, []);
+  }, [blockRef]);
 
   const DisplayCodeBlocks = () => {
     return codeBlocks.map((block, i) => (
