@@ -8,7 +8,7 @@ export const checkSolution = (codeBlock, solution) => {
   // Clean the code block by removing comments and white space
   const code = cleanCode(codeBlock);
   // Check if the cleaned code block matches the solution
-  if (code == solution) {
+  if (code === solution) {
     return true;
   }
 };
