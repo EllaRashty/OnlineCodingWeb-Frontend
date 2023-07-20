@@ -1,0 +1,38 @@
+body {
+  background-image: linear-gradient(120deg, #43889d 0%, #7490dd 100%);
+  color: rgba(252, 255, 255, 0.89);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+.loby-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.link {
+  border-radius: 10px;
+  width: 120pc;
+  height: 120px;
+  padding: 7px;
+  background-color:rgb(215, 240, 250);
+  color: #0b014b;
+}
+.description{
+  max-width: 75%;
+}
+
+h1 {
+  color: rgb(252, 252, 252);
+}
+
+h3 {
+  color:#0b014b;
+}
+
+h4 {
+  color:#580c02;
+}
+
