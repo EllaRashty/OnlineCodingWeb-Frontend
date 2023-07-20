@@ -52,7 +52,7 @@ function Block() {
       </Link>
       <h1>{block?.title}</h1>
       <h3 className="description">{block?.description}</h3>
-      {success && <img src={smiley} />}
+      {success && <img alt={"smiley"} src={smiley} />}
       <CodeBlock
         users={users}
         sendMessage={sendMessage}
