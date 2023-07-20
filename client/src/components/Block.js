@@ -26,13 +26,13 @@ function Block() {
         socket.emit("join_room", id, (message) => setUsers(`${message}`));
       }
     }
-  }, []);
+  }, [id]);
 
   useEffect(() => {
     socket.on("receive_message", (data) => {
       if (data.id === id) setCodeString(data.value);
     });
-  }, [socket]);
+  }, [socket,id]);
 
   /**
    * This function sends a message to the server with the current value of the code block and checks if it matches the solution
