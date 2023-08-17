@@ -1,6 +1,6 @@
 
 # Ella Rashty
-## _Moveo Home assignment - Online coding web application_
+## _Online Coding Web Application_
 
 
 **Overview**
